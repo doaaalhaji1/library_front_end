@@ -1,26 +1,85 @@
-🖥️ Front-End Overview
-The front-end of the application was built using React.js with Next.js for server-side rendering and routing, ensuring SEO-friendly structure and optimal performance.
-Styling was handled with Tailwind CSS, providing a responsive and modern user interface.
+# 📚 Library Management Front-End
 
-✨ Main Features
-Responsive and clean UI for a smooth user experience
+This is a **fully functional front-end application** for a digital library management system.  
+Built with **React.js** and **Next.js**, it provides a responsive and user-friendly interface with server-side rendering (SSR) for SEO optimization.
 
-Book browsing, search, borrowing, and return interface
+The project is connected to a RESTful API back-end, which handles authentication, data persistence, and business logic.
 
-User profile management (update / delete)
+🔗 **Back-End Repository:** [https://github.com/doaaalhaji1/Libraryproject]
 
-Admin dashboard for managing books, authors, categories, and users
+---
 
-Admin interface to approve/deny borrow requests and confirm returns
+## 🖥️ Front-End Overview
 
-📦 Technologies Used
-React.js
+The front-end offers features for both regular users and administrators. It supports browsing, borrowing, and returning books, as well as full admin control over library data.
 
-Next.js
+---
 
-Tailwind CSS
+## ✨ Main Features
 
-Axios for API communication
+- 🔹 **Responsive and modern UI** for smooth experience on all devices  
+- 🔹 **Book functionalities**: browse, search, borrow, and return  
+- 🔹 **User profile management**: update or delete account  
+- 🔹 **Admin dashboard**:
+  - Manage books, authors, categories, and users  
+  - Approve or deny borrow requests  
+  - Confirm book returns
 
-[React Router / Next Routing] for page navigation
+---
 
+## 📦 Technologies Used
+
+- **React.js** – Component-based UI development  
+- **Next.js** – Server-side rendering and routing  
+- **Tailwind CSS** – Utility-first responsive styling  
+- **Axios** – HTTP client for API communication  
+- **Next.js Routing** – Built-in page-based navigation
+
+---
+
+## 🚀 Installation & Running the Project
+
+### 🔧 Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/en/) (v18 or above recommended)  
+- npm or yarn
+
+---
+
+### 📥 Steps to Set Up and Run
+
+```bash
+# Clone the repository
+git clone https://github.com/your-frontend-repo-link
+cd your-frontend-repo-folder
+
+# Install dependencies
+# Using npm:
+npm install
+# Or using yarn:
+yarn install
+
+# Configure environment variables
+# Create a .env.local file in the root directory and add the following:
+echo "NEXT_PUBLIC_API_BASE_URL=https://your-api-base-url.com/api" > .env.local
+# Replace https://your-api-base-url.com/api with your actual back-end URL.
+
+# Run the development server
+# Using npm:
+npm run dev
+# Or using yarn:
+yarn dev
+# The app will be available at: http://localhost:3000
+
+# Build for Production
+# To create an optimized production build:
+npm run build
+npm start
+
+🙌 Contributing
+Feel free to fork the project and submit pull requests. Contributions are welcome!
+
+📄 License
+This project is licensed under the MIT License.
