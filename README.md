@@ -52,14 +52,18 @@ Make sure you have the following installed:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-frontend-repo-link
+git clone https://github.com/doaaalhaji1/Libraryproject
 cd your-frontend-repo-folder
-
+```
 # Install dependencies
 # Using npm:
+```
 npm install
+```
 # Or using yarn:
+```
 yarn install
+```
 
 # Configure environment variables
 # Create a .env.local file in the root directory and add the following:
@@ -68,15 +72,22 @@ echo "NEXT_PUBLIC_API_BASE_URL=https://your-api-base-url.com/api" > .env.local
 
 # Run the development server
 # Using npm:
+```
 npm run dev
+```
+ر``````
 # Or using yarn:
+```
 yarn dev
+```
 # The app will be available at: http://localhost:3000
 
 # Build for Production
 # To create an optimized production build:
+```
 npm run build
 npm start
+```
 
 🙌 Contributing
 Feel free to fork the project and submit pull requests. Contributions are welcome!
